@@ -24,13 +24,13 @@ postMerge:
   # glob-pattern for identifying the test files
   pattern:
     # regex pattern to discover tests to run in case of postMerge
-    - "./test.mjs"
+    # - "./test.mjs"
     - "./test.js"
 
 preMerge:
   pattern:
     # regex pattern to discover tests to run in case of premerge
-    - "./test.mjs"
+    # - "./test.mjs"
     - "./test.js"
 
 postRun:
