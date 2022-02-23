@@ -24,14 +24,14 @@ postMerge:
   # glob-pattern for identifying the test files
   pattern:
     # regex pattern to discover tests to run in case of postMerge
-    - "./test_files/2011/*.xlsx.xml"
-    - "./test_files/2011/*.xlsx.xls"
+    - "./test.mjs"
+    - "./test.js"
 
 preMerge:
   pattern:
     # regex pattern to discover tests to run in case of premerge
-    - "./test_files/2011/*.xlsx.xml"
-    - "./test_files/2011/*.xlsx.xls"
+    - "./test.mjs"
+    - "./test.js"
 
 postRun:
   # set of commands to run after running the tests
