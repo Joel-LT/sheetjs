@@ -24,14 +24,16 @@ postMerge:
   # glob-pattern for identifying the test files
   pattern:
     # regex pattern to discover tests to run in case of postMerge
-    - "./test.mjs"
     - "./test.js"
+    - "./test.mjs"
+   
 
 preMerge:
   pattern:
     # regex pattern to discover tests to run in case of premerge
-    - "./test.mjs"
     - "./test.js"
+    - "./test.mjs"
+
 
 postRun:
   # set of commands to run after running the tests
@@ -42,7 +44,7 @@ postRun:
 # configFile: mocharc.yml
 
 # provide the semantic version of nodejs required for your project
-# nodeVersion: 14.17.2
+nodeVersion: 14.17.2
 
 # configure whether to smartSelect test-cases. Default true
 smartRun: true
