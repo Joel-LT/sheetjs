@@ -24,12 +24,12 @@ postMerge:
   # glob-pattern for identifying the test files
   pattern:
     # regex pattern to discover tests to run in case of postMerge
-    - "./test_files/**/*.csv"
+    - "./test_files/**/*.xls.*.csv"
 
 preMerge:
   pattern:
     # regex pattern to discover tests to run in case of premerge
-    - "./test_files/**/*.csv"
+    - "./test_files/**/*.xls.*.csv"
 
 postRun:
   # set of commands to run after running the tests
