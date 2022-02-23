@@ -155,7 +155,8 @@ $(TESTDENOFMT): test-deno_%:
 
 .PHONY: travis
 travis: ## Run test suite with minimal output
-	mocha -R dot -t 30000
+	# mocha -R dot -t 30000
+	mocha -t 30000
 
 .PHONY: ctest
 ctest: ## Build browser test fixtures
